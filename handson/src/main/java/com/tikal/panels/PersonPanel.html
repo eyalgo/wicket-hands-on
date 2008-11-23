@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net/" xml:lang="en" lang="en">
+<wicket:panel>
+	<table>
+		<tr>
+			<td wicket:id="idLabel">[ID]</td>
+			<td><input wicket:id="id" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="firstNameLabel">[FIRST_NAME]</td>
+			<td><input wicket:id="firstName" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="lastNameLabel">[LAST_NAME]</td>
+			<td><input wicket:id="lastName" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="genderLabel">[GENDER]</td>
+			<td><span wicket:id="gender"> <input type="radio" />[MALE]
+			<input type="radio" />[FEMALE] </span></td>
+		</tr>
+		<tr>
+			<td wicket:id="countryLabel">[COUNTRY]</td>
+			<td><input wicket:id="country" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="cityLabel">[CITY]</td>
+			<td><input wicket:id="city" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="streetLabel">[STREET]</td>
+			<td><input wicket:id="street" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="addressLabel">[ADDRESS]</td>
+			<td><input wicket:id="address" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="zipLabel">[ZIP]</td>
+			<td><input wicket:id="zip" type="text" /></td>
+		</tr>
+		<tr>
+			<td wicket:id="birthDayLabel">[BIRTH_DAY]</td>
+			<td><select wicket:id="birthDay"></select></td>
+		</tr>
+		<tr>
+			<td wicket:id="birthMonthLabel">[BIRTH_MONTH]</td>
+			<td><select wicket:id="birthMonth"></select></td>
+		</tr>
+		<tr>
+			<td wicket:id="birthYearLabel">[BIRTH_YEAR]</td>
+			<td><select wicket:id="birthYear"></select></td>
+		</tr>
+		<tr>
+			<td wicket:id="joinDateLabel">[JOIN_DATE]</td>
+			<td><input wicket:id="joinDate" type=text"/></td>
+		</tr>
+	</table>
+	<span wicket:id="feedback"> Feedback messages will be here </span>
+</wicket:panel>
+</html>

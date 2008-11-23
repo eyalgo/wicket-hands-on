@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net/" xml:lang="en" lang="en">
+<body>
+<!--<wicket:extend> 11 -->
+<div wicket:id="container">
+<table>
+	<tbody>
+		<tr wicket:id="persons">
+			<td wicket:id="id"></td>
+			<td wicket:id="firstName"></td>
+			<td wicket:id="lastName"></td>
+			<td wicket:id="gender"></td>
+			<td wicket:id="country"></td>
+			<td wicket:id="birthDate"></td>
+			<td wicket:id="joinDate"></td>
+			<td><a wicket:id="remove" href="#">remove</a></td>
+			<td><a wicket:id="edit" href="#">edit</a></td>
+			<td wicket:id="popup"></td>
+		</tr>
+	</tbody>
+	<thead>
+		<tr>
+			<td>ID</td>
+			<td>First Name</td>
+			<td>Last Name</td>
+			<td>Gender</td>
+			<td>Country</td>
+			<td>Birth Date</td>
+			<td>Join Date</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</thead>
+</table>
+</div>
+<a href="#" wicket:id="add"><label wicket:id="addLabel"></label></a>
+<a href="#" wicket:id="showTable">Show Table</a>
+<!--</wicket:extend> 11 -->
+</body>
+</html>

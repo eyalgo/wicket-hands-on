@@ -1,0 +1,42 @@
+Wicket Hands-On Session
+1.	Getting the quickstart using maven
+	a.	http://wicket.apache.org/quickstart.html
+2.	Setting the Jetty plugin
+	a.	In our presentation, the port is 8899
+	b.	Run the server and show the message
+3.	Changing the “home page” to be LoginPage
+	a.	Form usage
+	b.	Hierarchy (components are added to the form component)
+		i.	Add a label to the page and show exception.
+	c.	Show the property model.
+	d.	Show error messages in feedback panel.
+	e.	Show info as well.
+4.	Show customized session
+	a.	Set values in the session
+5.	Navigating to a new page (setResponsePage)
+6.	Show list
+7.	Show base page and the DAO
+8.	Link to a different page (BookmarkablePageLink)
+9.	Panels and reusability
+	a.	CompoundPropertyModel
+	b.	AttributeModifier
+	c.	Using renderer to map object to choice
+	d.	Getting String from resource file
+	e.	HeaderContributer for the DateTimePicker (will also be shown in 12).	
+10.	AjaxLink
+	a.	setOutputMarkupId(true)
+	b.	Modal Window
+	c.	Properties file (Required message)
+	d.	setEnabled a component
+11.	Markup Inheritance
+12.	DataTable
+	a.	isVisible
+	b.	Header Contribution <wicket:head>
+	c.	Header Contribution in code
+	d.	Regular Link
+	e.	LoadableDetachableModel
+	f.	Sorting
+	g.	Ajax Table
+13.	Customize the application
+	a.	Development vs. Deployment
+	b.	InternalErrorPage as an example

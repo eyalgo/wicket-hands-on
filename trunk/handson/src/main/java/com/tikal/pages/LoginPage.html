@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net/" xml:lang="en" lang="en">
+<title>Login</title>
+
+<body>
+<span wicket:id="feedback"> Feedback messages will be here </span>
+<hr />
+<table width="100%" border="0" cellpadding="0" cellspacing="0"
+	id="pageHolder">
+	<tr>
+		<td align="center" valign="middle">
+		<form wicket:id="form">
+		<table width="350" border="0" cellpadding="10" cellspacing="0"
+			id="loginBox" style="padding: 5px; border: 2px solid #ABCABC">
+			<tr>
+				<td>
+				<table width="100%" border="0" cellspacing="1" cellpadding="2">
+					<tr>
+						<td align="left"><label wicket:id="userIdLabel">[name
+						label]</label></td>
+						<td><input wicket:id="userId" type="text" maxlength="256" /></td>
+					</tr>
+					<tr>
+						<td align="left"><label wicket:id="passwordLabel">[password
+						label]</label></td>
+						<td><input wicket:id="password" type="password"
+							maxlength="256" /></td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+						<button wicket:id="login" type="submit">Submit</button>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</form>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

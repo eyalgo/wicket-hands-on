@@ -40,3 +40,4 @@ Wicket Hands-On Session
 13.	Customize the application
 	a.	Development vs. Deployment
 	b.	InternalErrorPage as an example
+	c.	Mounting nice URLs 

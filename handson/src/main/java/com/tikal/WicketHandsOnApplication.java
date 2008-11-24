@@ -9,6 +9,8 @@ import org.apache.wicket.util.time.Duration;
 
 import com.tikal.db.PersonDAO;
 import com.tikal.pages.InternalErrorPage;
+import com.tikal.pages.PersonListPage;
+import com.tikal.pages.datatable.PeopleTablePage;
 
 /**
  * Application object for your web application. If you want to run this
@@ -52,6 +54,9 @@ public class WicketHandsOnApplication extends WebApplication {
 					IExceptionSettings.SHOW_INTERNAL_ERROR_PAGE);
 			getDebugSettings().setAjaxDebugModeEnabled(false);
 		}
+		
+		mountBookmarkablePage("/table", PeopleTablePage.class); // 13.c
+		mountBookmarkablePage("/list", PersonListPage.class); // 13.c
 	}
 
 	public static WicketHandsOnApplication get() {
